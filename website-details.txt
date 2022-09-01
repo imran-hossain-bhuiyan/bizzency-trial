@@ -1,0 +1,20 @@
+header part background -> #0f2f44
+header part font - opensans
+
+nav item background hover color -> #fff9e6
+
+nav item text hover color -> #ffc712
+
+banner text color => #0f2f44
+
+banner our ambition color -> #aab0d8
+
+banner button color -> #8484bf
+
+
+
+-------------Font----------------
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Abril Fatface', cursive;

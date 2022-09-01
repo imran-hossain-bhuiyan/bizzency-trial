@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============================
+     header part start
+=============================== */
+header{
+    background: #0f2f44;
+    color: #fff;
+    padding: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+header .header_left{
+    width: 50%;
+    float: left;
+}
+
+header .header_right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+
+/* ============================
+     header part end
+=============================== */
+
+
+/* ============================
+     navbar part start
+=============================== */
+nav{
+    padding: 40px 0;
+}
+nav .nav_logo{
+    width: 15%;
+    float: left;
+}
+
+nav .manue{
+    width: 75%;
+    float: left;
+}
+
+nav .icon{
+    width: 10%;
+    float: left;
+}
+
+nav .manue ul{
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav .manue ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav .manue ul li a{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 10px;
+    transition: .4s;
+}
+
+nav .manue ul li a:hover{
+    color: #ffc712;
+    background: #fff9e6;
+}
+
+nav .icon i{
+    border: 1px solid #888888;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+    margin: 0 10px;
+    transition: .4s;
+}
+
+nav .icon i:hover{
+    background: #0f2f44;
+    color: #ffc712;
+    cursor: pointer;
+}
+/* ============================
+     navbar part end
+=============================== */
+
+
+/* ============================
+     banner part start
+=============================== */
+
+#banner-part{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner-part h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #0f2f44;
+}
+#banner-part h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#banner-part h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #aab0d8;
+    letter-spacing: 14px;
+}
+
+#banner-part a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #8484bf;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* ============================
+     banner part end
+=============================== */
